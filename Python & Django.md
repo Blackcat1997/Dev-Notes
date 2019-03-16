@@ -1,4 +1,3 @@
-# Python & Django
 ## What is Django?
 Django is a web framework — a set of tools designed to help you build interactive websites.  
 
@@ -20,13 +19,13 @@ Go to the project directory, then run the command
 `deactive`  
 
 ### Django
-* **Installing**  
-> *Without leaving the active virtual environment.*    
+* **Installing**   
+*Without leaving the active virtual environment.*
 `pip install Django`  
 
 * **Creating a Project**  
-`django-admin.py startproject new-project .`  
-> *Dot creates the new project with a directory*    
+`django-admin.py startproject new-project .`  	
+*Dot creates the new project with a directory*  
 
 * **Creating the Database**  
 `python manage.py migrate`  
