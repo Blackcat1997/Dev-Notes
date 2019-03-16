@@ -6,16 +6,17 @@ Django is a web framework — a set of tools designed to help you build interact
 Writing a spec to Introduce the project details.
 
 ### Virtual Environment
-* **What is a virtual environment?**  
+**What is a virtual environment?**  
 A virtual environment is a place on your system where you can install packages and isolate them from all other Python packages.  
 
-* **Step**
+**Implementing Steps**
+
 1. Create: Go to the project directory, then run the command  
 `python -m virtualenv new_env`  
 2. Activate   
-`source new_env/bin/activate`   
+`source new_env/bin/activate`  
 3. Deactive  
-`deactive`  
+`deactive`
 
 ### Django
 * **Installing:** *Without leaving the active virtual environment.*  
