@@ -1,2 +1,2 @@
 # Dev-Notes
-Books, documents, tutorial notes.
+Books, documents and tutorials notes.
