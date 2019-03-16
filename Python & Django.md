@@ -9,9 +9,8 @@ Writing a spec to Introduce the project details.
 * **What is a virtual environment?**  
 A virtual environment is a place on your system where you can install packages and isolate them from all other Python packages.  
 
-* **Step**  
-1. Create  
-Go to the project directory, then run the command  
+* **Step**
+1. Create: Go to the project directory, then run the command  
 `python -m virtualenv new_env`  
 2. Activate   
 `source new_env/bin/activate`   
