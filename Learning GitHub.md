@@ -56,5 +56,5 @@ Merge is to bring the changes that made before in the new branch to merge into t
 	2. Confirm merge  
 	3. delete the branch after merging successfully.  
  
-## Whole process
+## Process
 ![](images/github_process.png)
