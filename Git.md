@@ -4,7 +4,7 @@ GitHub is a code hosting platform for version control and collaboration.
 ### Repository  
 **What is a repository?**  
 A repository is usually used to organize a single project.
- 
+
 **What are there in a repository?**  
 Folders, files, images, videos, spreadsheets, anything a project needs.  
 Recommend: including a README to tell the information about the project.
