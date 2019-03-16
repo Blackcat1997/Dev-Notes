@@ -57,4 +57,4 @@ Merge is to bring the changes that made before in the new branch to merge into t
 	3. delete the branch after merging successfully.  
  
 ## Whole process
-![](Python&Django/process.png)
+![](images/github_process.png)
