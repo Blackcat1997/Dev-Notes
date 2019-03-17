@@ -147,3 +147,8 @@ A URL pattern describes the way the URL is laid out and tells Django what to loo
 		--snip--
 	}
 	```
+
+### URLs mapping
+<p align="center">
+<img src="images/urlmapping.png" width="50%">
+</p>

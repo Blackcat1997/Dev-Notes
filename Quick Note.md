@@ -103,3 +103,32 @@ TEMPLATES {
 	--snip--
 }
 ```
+--- 
+## Additional Pages
+### Template Inheritance
+* When building websites, you'll almost always require some elements to be repeated on each page.  
+* Write a base template containing the repeated elements and then have each page inherit from the template.
+### The Parent Template
+**base.html**  
+
+* This file contains elements common to all pages  
+* Every other template inherit from *base.html*  
+
+**Generating links**  
+
+* We use a template tag, indicated by braces and percent sign {% %}.  
+* A template tag is a bit of code that generates information to be displayed on a page.  
+	
+	```
+	{% url '(project folder/urls.py/namespace):(app folder/urls.py/name)' %}
+	```
+	
+### The Child Template
+* A child template must have an `{% extends %}` tag on the first line to tell Django which parent template to inherit from.
+* In a child template, we only need to include content that's unique to that page.
+* To modify an element common to many pages, you only need to modify the element in the parent template.
+* In a large project, it's common to have one parent template called base.html for the entire site and parent templates for each major section of the site. All the section templates inherit from base.html, and each page in the site inherits from a section template.  
+### Python in Pages
+* Python uses indentation to indicate which lines of a for statement are part of a loop.
+* In a template, every for loop needs an explicit `{% endfor %} `tag indicating where the end of the loop occurs.
+* Use the `{% empty %}` to tell Django what to do the if statement is false, which is equivalent to 'else'.
