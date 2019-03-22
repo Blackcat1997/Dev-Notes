@@ -1,4 +1,8 @@
-<span style= "font-family:Times;">
+body {
+
+​	font-family: Helvetica;
+
+}
 
 ## Position of elements
 
@@ -30,5 +34,3 @@ When you use relative, fixed, or absolute positioning, boxes can overlap. If box
   The maximum width a box can stretch to when the browser window is wide.
 
   **Limiting height**: same as width.
-
-</span>
