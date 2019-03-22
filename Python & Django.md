@@ -58,13 +58,13 @@ INSTALLED_APPS = (
 	# New apps    
 	'the App name',  
 )
-```  
+```
 
 ### Modifing the database  
 Every time after we added a new model, we need to migrate the database.  
 
 **How to migrate the database?** *(Two steps)* 
- 
+
 1. Migrate the database and check the output  
 `python manage.py make migrations`  
 
@@ -96,10 +96,10 @@ admin.site.register(new_class_name)
 Users request pages by entering URLs into a browser and clicking links.  
 
 **First** 
- 
+
 * Define patterns for URLs.  
 A URL pattern describes the way the URL is laid out and tells Django what to look for when matching a browser request with a site URL so it knows which page to return.  
- 
+
 **Base URL**  
 
 * Including folders&files:  
@@ -152,10 +152,4 @@ A URL pattern describes the way the URL is laid out and tells Django what to loo
 <p align="center">
 <img src="images/urlmapping.png" width="50%">
 </p>
-
-```python  
-def sum(a, b):
-	return a + b;
-```
-
-test 
+Nice try
