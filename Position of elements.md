@@ -1,5 +1,5 @@
 ## Position of elements
-* Normal flow
+* Normal flow (*default*)
 	* position:static
 * Relative positioning
 	* pisition:relative  
@@ -13,3 +13,17 @@ Fixed positioning is a type of absolute positioning that requires the position p
 * Overlapping elements
 	* z-index  
 When you use relative, fixed, or absolute positioning, boxes can overlap. If boxes fo overlap, the elements that appear later in the HTML code sit on top of those that are earlier in the page.If you want to control which elements sits on top, you can use the z-index property.
+
+## BOX
+
+### Limiting width
+
+* min-width
+
+  The smallest size a box can be displayed at when the browser window is narrow.
+
+* max-width
+
+  The maximum width a box can stretch to when the browser window is wide.
+
+  **Limiting height**: same as width.
