@@ -152,3 +152,10 @@ A URL pattern describes the way the URL is laid out and tells Django what to loo
 <p align="center">
 <img src="images/urlmapping.png" width="50%">
 </p>
+
+```python  
+def sum(a, b):
+	return a + b;
+```
+
+test 
