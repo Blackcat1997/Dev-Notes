@@ -10,4 +10,3 @@ If you pass too many arguments to a function, the extra ones are ignored.
 	//result: 1 + 1 = 2, ignore 2 and 3.
 ```
 
-
