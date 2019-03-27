@@ -1,4 +1,7 @@
+# JavaScript
+
 ## Functions
+
 **Optional Arguments**  
 If you pass too many arguments to a function, the extra ones are ignored.  
 

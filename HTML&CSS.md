@@ -20,7 +20,7 @@
 
 * Overlapping elements
   * z-index  
-    When you use relative, fixed, or absolute positioning, boxes can overlap. If boxes fo overlap, the elements that appear later in the HTML code sit on top of those that are earlier in the page.If you want to control which elements sits on top, you can use the z-index property.
+    When you use relative, fixed, or absolute positioning, boxes can overlap. If boxes do overlap, the elements that appear later in the HTML code sit on top of those that are earlier in the page.If you want to control which elements sits on top, you can use the z-index property.
 
 * Floating elements
 
@@ -36,11 +36,11 @@
 		* both
 		* none
 
-* Float elements
+* Float elements (**margins never collapse**)
 
 	* Problem
 
-		If a containg element only contains flaoted elements, some browsers will treat as if it is zero pixels tall.
+		If a containg element only contains floated elements, some browsers will treat as if it is zero pixels tall.
 
 	* Solution
 
@@ -106,6 +106,13 @@
 
 ## BOX
 
+### SIZE
+
+* default: size + padding + border
+	* box-sizing: content-box
+*  customize
+	* box-sizing: border-box (**not inherited**)
+
 ### Limiting width
 
 - min-width
@@ -122,7 +129,7 @@
 	overflow: hidden
 	```
 
-- **scrol:** This property adds a scrollbar to the box so that users can scroll to see the missing content.
+- **scroll:** This property adds a scrollbar to the box so that users can scroll to see the missing content.
 
 ### Inline/Block
 
@@ -150,8 +157,14 @@
 	- border-top-left-radius
 
 * Elliptical shapes
-	* border-radius: 100px **circle**
-	* border-radius: 80px 50px **corner**
+  * border-radius: 100px **circle**
+  * border-radius: 80px 50px **corner**
+
+### Margin
+
+* left + right
+* top, bottom: collapse
+	* larger wins
 
 ## List
 
@@ -284,38 +297,62 @@
 ## Images
 
 * background
-	* background-image
-	* background-repeat
-		* repeat: horizontal & veritcal
-		* repeat-x: horizontal
-		* repeat-y: vertical
-		* no-repeat: only show once
-	* background-attachment
-		* fixed: stays in the same positon on the page
-		* scroll: moves up and down as the user scrolls the page
-	* background-position
-		* left top
-		* left center
-		* left bottom
-		* center top
-		* center center
-		* center bottom
-		* right top
-		* right center
-		* right bottom
+  * background-image
+  * background-repeat
+  	* repeat: horizontal & veritcal
+  	* repeat-x: horizontal
+  	* repeat-y: vertical
+  	* no-repeat: only show once
+  * background-attachment
+  	* fixed: stays in the same positon on the page
+  	* scroll: moves up and down as the user scrolls the page
+  * background-position
+  	* left top
+  	* left center
+  	* left bottom
+  	* center top
+  	* center center
+  	* center bottom
+  	* right top
+  	* right center
+  	* right bottom
 * Shorthand
-	* background (follow the order)
-		* background-color
-		* background-image
-		* background-repeat
-		* background-attachment
-		* background-position
+  * background (follow the order)
+  	* background-color
+  	* background-image
+  	* background-repeat
+  	* background-attachment
+  	* background-position
 * Image rollovers & sprites
-	* rollover: When users move the mouse over the image and a third style when clicking on it.
-		* :hover
-		* :active
-	* sprite: When a single image is used for several different parts of an interface.
-		* The web browser only needs to request one image rather than many images, which can make the web page load faster.
+  * rollover: When users move the mouse over the image and a third style when clicking on it.
+    * :hover
+    * :active
+  * sprite: When a single image is used for several different parts of an interface.
+    * The web browser only needs to request one image rather than many images, which can make the web page load faster.
 
+### Specificity
 
+* style=""
+	* id
+		* class, class psedo, atrribute
+			* element
 
+### Different screens
+
+* First, provide base styling
+
+	* then change or add styles in each media query
+
+	```html
+	@media (min-width: px) , (max-width: px) {
+	
+	​	/*style*/
+	
+	}
+	```
+
+	
+
+* Do not overlap breakepoints
+
+	
