@@ -1,5 +1,5 @@
 # Front-end Learning Route
-Source from Medium: [Learn to become a modern Frontend Developer in 2019 — Kamran Ahmed](https://link.medium.com/YNMsUugfoV)
+Source from Medium: [Learn to become a modern Frontend Developer in 2019 - Kamran Ahmed](https://link.medium.com/YNMsUugfoV)
 
 > [HTML](#html)  
 > [CSS](#css)  
