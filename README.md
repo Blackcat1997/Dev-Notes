@@ -1,11 +1,11 @@
 # Dev-Notes
 Books, documents and tutorials notes.
 ### [Learning GitHub](<https://github.com/Blackcat1997/Dev-Notes/blob/master/Tools/Learning%20GitHub.md>)
-### [Python&Django](https://github.com/Blackcat1997/Dev-Notes/blob/master/Python%20%26%20Django.md)
+### [Django](<https://github.com/Blackcat1997/Dev-Notes/blob/master/Frameworks/Django/Django%20Basic.md>)
 
-### [HTML&CSS](<https://github.com/Blackcat1997/Dev-Notes/blob/master/HTML%26CSS.md>)
+### [HTML&CSS](<https://github.com/Blackcat1997/Dev-Notes/blob/master/Basic%20Lan/HTML%26CSS.md>)
 
-### [Front-end Learning Route](<https://github.com/Blackcat1997/Dev-Notes/blob/master/FeRoute.md#html>)
+### [Front-end Learning Route](<https://github.com/Blackcat1997/Dev-Notes/blob/master/Others/FeRoute.md>)
 
 
 
